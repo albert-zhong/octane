@@ -3,10 +3,10 @@ import numpy as np
 
 class GradientDescent:
 
-    theta = np.matrix([])  # Parameters
+    theta = np.array([])  # Parameters
 
-    X = np.matrix([])
-    y = np.matrix([])
+    X = np.array([])
+    y = np.array([])
     m = 1  # Number of training examples
     n = 1  # Number of features
 
